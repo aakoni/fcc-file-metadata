@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>File Metadata Microservice</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <div>
+    <h1>
+      File Metadata Microservice
+    </h1>
+    
+    <h2>
+      How It Works
+    </h2>
+
+    <p>
+      Select and upload a file to return a JSON object containing the file's size in bytes.
+    </p>
+      
+      <form action="/upload" method="post", enctype="multipart/form-data">
+      <input type="file" name="data" id="data">
+      <br>
+      <button id="submit">
+        Submit
+      </button>
+      </form>
+ 
+    </div>
+
+  </body>
+</html>

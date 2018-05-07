@@ -1,0 +1,19 @@
+
+* {
+  background: navy;
+  color: white;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 25px;
+  width:60%;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+button {
+ background: yellow;
+ color: darkgreen;
+ margin-top: 8px;
+}
